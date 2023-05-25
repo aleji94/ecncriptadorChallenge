@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+    integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous">
+  </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Encriptador</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="img/logo.png" alt="" />
+  </header>
+
+  <main class="contenedor">
+    <section class="contenido">
+      <div>
+        <textarea placeholder="Ingrese Texto Aquí" class="textarea-contenido" name="" id="" cols="30"
+          rows="10"></textarea>
+      </div>
+
+      <div class="bottons">
+        <button class="btn-encriptar">Encriptar</button>
+        <button class="btn-deencriptar">Desencriptar</button>
+      </div>
+
+      <p class="information">
+        <span  class="fas fa-exclamation-circle"></span>
+        Sólo letras minúsculas, sin caracteres especiales
+      </p>
+    </section>
+
+    <section class="sidebar">
+      <div>
+        <textarea class="textarea-mensaje" placeholder="" name="" id="" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="alert ">
+        <img  class="img-error" src="img/ack1.gif" alt="">
+        <p class="error-p">Tiene que ingresar un texto</p>
+        <span class="fas fa-exclamation-circle"></span>
+  
+      </div>
+
+      <div>
+    
+        <button class="btn-copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
